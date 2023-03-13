@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0rem;
+}
+.grid{
+    display: grid;
+    width: 80vw;
+    /* justify-content: space-between; */
+
+    
+
+    height: 100vh;
+}
+
+/* .auction{
+    display: flex;
+    width: 98vw;
+    justify-content: space-between;
+
+    height: 100vh;
+} */
+
+@media(min-width:15rem){
+    .grid{
+        grid-template-columns: 1fr;
+		/* makes 3 columns as soon as the screen is more than 40rem */
+    }
+    
+}
+
+@media(min-width:45rem){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+		/* makes 3 columns as soon as the screen is more than 40rem */
+    }
+    
+}
+
+
+@media(min-width:50rem){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100vw;
+		/* This line basically does the same thing as for 40 rem */
+    }
+    
+}
+
+@media(min-width:65rem){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100vw;
+		/* This line basically does the same thing as for 40 rem */
+    }
+    
+}
+
+.grid{
+    margin: 2rem;
+}
+
+
+/* This is some default styling for the exercise */
+.column {
+	height: 34rem;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+/* .column p {
+	padding: 0.5rem; 
+} */
+
+/* .column:nth-of-type(1) {
+	background-color: rgb(68, 93, 146);
+    color:white;
+} */
+
+/* .column:nth-of-type(2) {
+	background-color: rgb(85, 84, 84);
+    color:white;
+}
+
+.column:nth-of-type(3) {
+	background-color: rgb(165, 228, 156);
+    color:white;
+}
+
+.column:nth-of-type(4) {
+	background-color: rgb(199, 207, 198);
+    color:white;
+}
+
+.column:nth-of-type(5) {
+	background-color: rgb(187, 145, 189);
+    color:white;
+} */

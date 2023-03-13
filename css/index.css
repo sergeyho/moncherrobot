@@ -1,0 +1,9 @@
+body, a {
+    background-color: var(--off-black);
+    color: var(--off-white);
+}
+
+.home-link, .nav-link {
+    background-color: var(--off-blue);
+}
+
