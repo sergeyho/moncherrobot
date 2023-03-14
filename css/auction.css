@@ -1,4 +1,18 @@
-body {
-    background-color: var(--off-white);
-    /* background-color: var(--off-black); */
+body,
+a {
+  background-color: var(--off-black);
+  color: var(--off-white);
+}
+
+.home-link,
+.nav-link {
+  background-color: var(--off-blue);
+}
+
+.desc {
+  margin-bottom: 2rem;
+}
+
+.logo {
+  margin-bottom: 2rem;
 }
